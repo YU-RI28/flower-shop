@@ -54,6 +54,10 @@ html {
     gap: 32px;
     align-items: center;
     margin-bottom: 40px;
+
+    @media and screen (max-width: 560px) {
+    display: block;
+    }
 }
 .pickup__imgContainer {
     width: 500px;
