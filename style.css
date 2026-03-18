@@ -74,15 +74,15 @@ html {
     width: 50%;
     max-width: 468px;
 }
+@media screen and(max-width: 560px) {
+    .pickup__textContainer{
+        text-align: center;}
+    }
 .pickup__itemTitle {
     color: #83776A;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 24px;
-
-    @media screen and(max-width: 560px) {
-        text-align: center;
-    }
 }
 .u-sectionText {
     font-size: 16px;
